@@ -1,0 +1,98 @@
+@import"reset.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap');
+
+/* font-family: 'DM Serif Display', serif; font-family: 'Jost', sans-serif; */
+
+body{
+    background-color: #f5f5f5;
+    font-weight: 400;
+}
+.container{
+    max-width: 1500px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+ 
+.header{
+    padding: 38px 0;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    font-size: 20px;
+    color: #292f36;
+    line-height: 30px;
+    font-family: 'Jost', sans-serif;
+}
+.nav-link{
+    color: #292f36;
+}
+.nav-link.active{
+    color: #cda274;
+}
+.header-row{
+    background-image: url(./img/background-image.png);
+    background-repeat: no-repeat;
+    background-size:  cover;
+      
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin-top: 38px;
+  border-radius: 0 0 0 200px;
+  margin-bottom: 175px;
+  
+   
+}
+.header-content{
+    padding-top: 188px;
+    padding-left: 120px;
+
+}
+.header-title{
+    font-family: 'DM Serif Display', serif;
+    font-size: 80px;
+    line-height: 96px;
+    color: #292f36;
+    margin-bottom: 19px;
+}
+.header-content p{
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4d5053;
+    margin-bottom: 35px;
+}
+ 
+
+ .header-btn{
+   padding-left: 120px;
+ }
+
+
+ 
+.btn{
+color: #ffffff;
+display: inline-block;
+font-family: 'Jost', sans-serif;
+font-size: 18px;
+line-height: 27px;
+color: #ffffff;
+border-radius: 25px;
+padding: 22px 30px 22px 30px;
+background-color: #292f36;
+margin-bottom: 260px;
+}
+.btn-img{
+    padding-left: 20px;
+}
+
